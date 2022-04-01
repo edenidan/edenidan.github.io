@@ -1,10 +1,22 @@
 <html>
     <head>
-       <title></title>
-       <script src="/main.js"></script> 
+       <title>Tip jar poll</title>
+
        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+
+       <script src="main.js"></script> 
+       <script src="eth_api.js"></script>
+       <link rel="stylesheet" href="style.css">
     </head>
+
     <body>
-        Preparing for the service.
+        <div class="footer">RED vs BLUE</div>
+        <div class="center main-display">
+            <canvas id="chart"></canvas>
+            <br/><br/>
+            <h3>For blue 123</h3><br/>
+            <h3>For Red 456</h3>
+        </div>
     </body>
 </html>
