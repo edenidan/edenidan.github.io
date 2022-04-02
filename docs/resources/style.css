@@ -1,0 +1,31 @@
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.main-display{
+    padding-right: 30%;
+    padding-left: 30%;
+    padding-top: 5%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.item{
+    margin-left: 24%;
+    margin-right: 24%;
+}
+
+.header{
+    margin-top: 50px;
+    font-size: xx-large;
+}
+
+html{
+    font-family: trebuchet ms, helvetica, verdana;
+    background: url('bodybg.gif');
+}
